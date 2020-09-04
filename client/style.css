@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 22px;
+}
+*::placeholder{
+    color: #FF4D00;
+    font-weight: bold;
+}
+.menu{
+    background: #FF4D00;
+    padding: 5px;
+}
+.menu li{
+    display: inline-block;
+    padding: 2px;
+}
+.menu li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    font-size: 25px;
+}
+#register-form{
+    background: #ccc;
+}
+#register-form h4{
+    margin-left: 40%;
+    color: #FF4D00;
+}
+#register-form input{
+    padding: 2px;
+    margin-bottom: 5px;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #FF4D00;
+    color: #FF4D00;
+    width: 100%;
+}
+#register-form button{
+    margin-left: 5px;
+    padding: 2px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #FF4D00;
+    color: #fff;
+    font-weight: bold;
+}
