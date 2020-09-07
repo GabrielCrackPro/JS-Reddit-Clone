@@ -17,7 +17,12 @@ This is a reddit clone
 - [x] Create register / login forms
 - [x] Send register / login data to the server
 
+### BACK-END
+- [x] Recive user information
+- [x] Set Up MongoDB connection
+
 ### TO-DO
 - Create freatured post section
 - Create interaction buttons
+- Store user data into MongoDB
 - Implement dark mode
