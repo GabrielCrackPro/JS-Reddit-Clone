@@ -8,6 +8,11 @@
   color: #ff4d00;
   font-weight: bold;
 }
+*::selection{
+  background: #ff4d00;
+  color: #fff;
+  font-weight: bold;
+}
 .menu {
   background: #ff4d00;
   padding: 5px;
@@ -22,9 +27,9 @@
   color: #fff;
   font-size: 25px;
 }
-.menu li a:hover{
-    text-decoration: underline;
-    transition: all .3s ease;
+.menu li a:hover {
+  text-decoration: underline;
+  transition: all 0.3s ease;
 }
 #register-form {
   background: #ccc;
@@ -71,23 +76,69 @@
   height: 170px;
   top: 50px;
 }
-#login-form button{
-    margin-top: 30px;
+#login-form button {
+  margin-top: 30px;
 }
-.divisor{
-    height: 20px;
-    background: #ff4d00;
-    z-index: 10;
-    margin-top: 190px;
+.divisor {
+  height: 20px;
+  background: #ff4d00;
+  z-index: 10;
+  margin-top: 190px;
 }
-.trending{
-    background: #ccc;
+.trending {
+  background: #ccc;
 }
-.trending-1{
-    outline: 2px solid #ff4d00;
+.trending-1 {
+  outline: 2px solid #ff4d00;
 }
-#up-count,#down-count{
-    position: absolute;
-    color: #ff4d00;
-    font-size: 30px;
+.trending-1 h4 {
+  color: #ff4d00;
+}
+.post-buttons button,
+#dark-mode-button {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 5px;
+}
+#dark-mode-button i{
+  color: #fff;
+}
+#dark-mode-button:hover i{
+  color: #000;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+.post-buttons button i{
+  color: #ff4d00;
+  font-weight: bold;
+}
+.post-buttons button:hover i {
+  color: #000;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+#post-date {
+  color: #ff4d00;
+  font-weight: bold;
+  position: absolute;
+  top: 350px;
+  left: 140px;
+}
+#upvote-count {
+  position: absolute;
+  left: 25px;
+  top: 350px;
+  font-weight: bold;
+  color: #ff4d00;
+}
+#downvote-count {
+  position: absolute;
+  left: 60px;
+  top: 350px;
+  font-weight: bold;
+  color: #ff4d00;
+}
+.dark-mode{
+  background: #000;
 }

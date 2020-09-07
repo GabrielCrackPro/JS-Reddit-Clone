@@ -16,13 +16,14 @@ This is a reddit clone
 - [x] Create UI
 - [x] Create register / login forms
 - [x] Send register / login data to the server
+- [x] Create interaction buttons
+- [x] Create freatured posts section
+- [x] Implement Dark mode
 
 ### BACK-END
 - [x] Recive user information
 - [x] Set Up MongoDB connection
 
 ### TO-DO
-- Create freatured post section
-- Create interaction buttons
 - Store user data into MongoDB
-- Implement dark mode
+- Change dark mode button when is on
