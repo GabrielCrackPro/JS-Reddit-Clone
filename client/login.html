@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/client/style.css" />
+    <!--FONT AWSOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <title>Reddit Clone | Login</title>
   </head>
   <body>
     <nav>
       <ul class="menu">
         <li><a href="#">Reddit Clone |</a></li>
-        <li><a href="#">Join</a></li>
-        <li><a href="#">Login</a></li>
+        <li><a href="/client/login.html">Join / Login</a></li>
       </ul>
     </nav>
     <form id="register-form">
@@ -39,6 +40,27 @@
       <br />
       <button type="submit">Join</button>
     </form>
+    <form id="login-form">
+      <h4>Login</h4>
+      <input type="email" name="login-email" id="login-email" placeholder="Email">
+      <br>
+      <input type="password" name="login-password" id="login-password" placeholder="Password">
+      <br>
+      <button type="submit">Log In</button>
+    </form>
+    <div class="divisor"></div>
+    <div class="trending">
+      <div class="trending-1">
+        <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi doloremque iusto numquam culpa velit consequuntur temporibus animi minima maiores beatae magnam nobis aperiam ratione, dolor quia, vitae nisi excepturi repudiandae.</p>
+        <div class="post-buttons">
+          <button><i class="fas fa-chevron-up"></i></button> <small id="up-count">0</small>
+          <button><i class="fas fa-chevron-down"></i></button> <small id="down-count">0</small>
+          <button><i class="fas fa-crown"></i></button>
+          <button><i class="fas fa-comment-dots"></i></button>
+        </div>
+      </div>
+    </div>
     <script src="/client/script.js"></script>
   </body>
 </html>

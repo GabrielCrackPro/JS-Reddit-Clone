@@ -16,3 +16,8 @@ This is a reddit clone
 - [x] Create UI
 - [x] Create register / login forms
 - [x] Send register / login data to the server
+
+### TO-DO
+- Create freatured post section
+- Create interaction buttons
+- Implement dark mode
