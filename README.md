@@ -11,6 +11,7 @@ This is a reddit clone
     - monk
 - [x] Create the basic folder structure
 - [x] Create all basic files
+- IMPORTANT: PULL APART THE SCRIPTS
 
 ### FRONT-END
 - [x] Create UI
@@ -27,3 +28,4 @@ This is a reddit clone
 ### TO-DO
 - Store user data into MongoDB
 - Change dark mode button when is on
+- Fix insert emojis

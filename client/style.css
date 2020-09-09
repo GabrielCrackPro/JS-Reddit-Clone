@@ -142,3 +142,83 @@
 .dark-mode{
   background: #000;
 }
+#post-box{
+  padding: 5px;
+  margin-top: 5px;
+  background: #ccc;
+  outline: 2px solid #ff4d00;
+  width: 99%;
+}
+#post-box h4{
+  text-align: center;
+  text-transform: uppercase;
+  background: #ff4d00;
+  color: #fff;
+  margin-bottom: 5px;
+}
+#post-box textarea{
+  width: 100%;
+  color: #ff4d00;
+  outline: none;
+  max-height: 65px;
+  max-width: 100%;
+}
+#post-box button{
+  border: none;
+  outline: none;
+  background: #ff4d00;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px;
+  width: 150px;
+}
+#post-box a{
+  color: #ff4d00;
+}
+#post-box a i{
+  font-size: 30px;
+}
+#post-box a:hover i{
+  color: #000;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+.emoji-box{
+  display: none;
+  position: absolute;
+  background: #ccc;
+  outline: 2px solid #ff4d00;
+  width: 110px;
+  margin-top: 5px;
+  left: 120px;
+  top: 175px;
+}
+.emoji-box button{
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+.show-img{
+  display: block;
+}
+.image-box{
+  display: none;
+  position: absolute;
+  background: #ccc;
+  outline: 2px solid #ff4d00;
+  padding: 5px;
+  left: 200px;
+  top: 175px;
+}
+.image-box input{
+  outline: none;
+}
+.image-box button{
+  border: none;
+  outline: none;
+  background: #ff4d00;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #fff;
+}
