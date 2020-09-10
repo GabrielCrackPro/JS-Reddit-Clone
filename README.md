@@ -19,10 +19,12 @@ This is a reddit clone
 - [x] Send register / login data to the server
 - [x] Create interaction buttons
 - [x] Create freatured posts section
+- [x] Create post / comment section
 - [x] Implement Dark mode
 
 ### BACK-END
-- [x] Recive user information
+- [x] Recive user data
+- [x] Recieve post data
 - [x] Set Up MongoDB connection
 
 ### TO-DO

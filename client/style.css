@@ -8,7 +8,7 @@
   color: #ff4d00;
   font-weight: bold;
 }
-*::selection{
+*::selection {
   background: #ff4d00;
   color: #fff;
   font-weight: bold;
@@ -101,15 +101,15 @@
   outline: none;
   padding: 5px;
 }
-#dark-mode-button i{
+#dark-mode-button i {
   color: #fff;
 }
-#dark-mode-button:hover i{
+#dark-mode-button:hover i {
   color: #000;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   cursor: pointer;
 }
-.post-buttons button i{
+.post-buttons button i {
   color: #ff4d00;
   font-weight: bold;
 }
@@ -139,31 +139,31 @@
   font-weight: bold;
   color: #ff4d00;
 }
-.dark-mode{
+.dark-mode {
   background: #000;
 }
-#post-box{
+#post-box {
   padding: 5px;
   margin-top: 5px;
   background: #ccc;
   outline: 2px solid #ff4d00;
   width: 99%;
 }
-#post-box h4{
+#post-box h4 {
   text-align: center;
   text-transform: uppercase;
   background: #ff4d00;
   color: #fff;
   margin-bottom: 5px;
 }
-#post-box textarea{
+#post-box textarea {
   width: 100%;
   color: #ff4d00;
   outline: none;
   max-height: 65px;
   max-width: 100%;
 }
-#post-box button{
+#post-box button {
   border: none;
   outline: none;
   background: #ff4d00;
@@ -172,18 +172,18 @@
   padding: 5px;
   width: 150px;
 }
-#post-box a{
+#post-box a {
   color: #ff4d00;
 }
-#post-box a i{
+#post-box a i {
   font-size: 30px;
 }
-#post-box a:hover i{
+#post-box a:hover i {
   color: #000;
   cursor: pointer;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
-.emoji-box{
+.emoji-box {
   display: none;
   position: absolute;
   background: #ccc;
@@ -193,16 +193,17 @@
   left: 120px;
   top: 175px;
 }
-.emoji-box button{
+.emoji-box button {
   border: none;
   background: none;
   outline: none;
   cursor: pointer;
 }
-.show-img{
+.show,
+.show-img {
   display: block;
 }
-.image-box{
+.image-box {
   display: none;
   position: absolute;
   background: #ccc;
@@ -211,14 +212,76 @@
   left: 200px;
   top: 175px;
 }
-.image-box input{
+.image-box input {
   outline: none;
 }
-.image-box button{
+.image-box button {
   border: none;
   outline: none;
   background: #ff4d00;
   padding: 5px;
   text-transform: uppercase;
   color: #fff;
+}
+.post-container{
+  background-color: #ccc;
+  outline: 2px solid #ff4d00;
+  width: 99%;
+  margin-top: 10px;
+}
+.post-container h4{
+  color: #ff4d00;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.post-container p{
+  color: #ff4d00;
+  font-weight: bold;
+}
+.post-container p small{
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.post-container button{
+  background: none;
+  border: none;
+  outline: none;
+}
+.post-container button i{
+  color: #ff4d00;
+}
+.post-container button:hover i{
+  color: #000;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+.post-divisor{
+  height: 10px;
+  background-color: #ff4d00;
+  margin-bottom: 5px;
+}
+.comment-box{
+  position: absolute;
+  background: #ccc;
+  outline: 2px solid #ff4d00;
+  top: 280px;
+  left: 100px;
+  width: 350px;
+}
+.comment-box textarea{
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 97%;
+  outline: none;
+  color: #ff4d00;
+}
+.comment-box button{
+  background: #ff4d00;
+  color: #fff;
+  padding: 5px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  width: 97%;
+  cursor: pointer;
 }

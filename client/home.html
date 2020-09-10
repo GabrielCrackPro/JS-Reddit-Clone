@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/client/style.css" />
     <!--FONT AWSOME-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
     <title>Reddit Clone | Home</title>
   </head>
   <body>
@@ -13,35 +18,47 @@
       <ul class="menu">
         <li><a href="/client/home.html">Reddit Clone |</a></li>
         <li><a href="/client/login.html">Join / Login</a></li>
-        <li><button id="dark-mode-button"><i class="fas fa-moon"></i></button></li>
+        <li>
+          <button id="dark-mode-button"><i class="fas fa-moon"></i></button>
+        </li>
       </ul>
     </nav>
     <form id="post-box">
-        <h4>New Post</h4>
-        <textarea name="post-text" id="post-text" placeholder="Share Your Thoughts"></textarea>
-        <br>
-        <button type="submit">Post</button>
-        <a href="#" id="emoji-button"><i class="far fa-smile-beam"></i></a>
-        <a href="#" id="image-button"><i class="fas fa-image"></i></a>
-        <a href="#" id="link-button"><i class="fas fa-link"></i></a>
+      <h4>New Post</h4>
+      <textarea
+        name="post-text"
+        id="post-text"
+        placeholder="Share Your Thoughts"
+      ></textarea>
+      <br />
+      <button type="submit">Post</button>
+      <a href="#" id="emoji-button"><i class="far fa-smile-beam"></i></a>
+      <a href="#" id="image-button"><i class="fas fa-image"></i></a>
+      <a href="#" id="link-button"><i class="fas fa-link"></i></a>
     </form>
     <div class="emoji-box">
-        <button>😊</button>
-        <button>😂</button>
-        <button>😎</button>
-        <br>
-        <button>😍</button>
-        <button>😮</button>
-        <button>😴</button>
-        <br>
-        <button>😏</button>
-        <button>😣</button>
-        <button>😨</button>
+      <button>😊</button>
+      <button>😂</button>
+      <button>😎</button>
+      <br />
+      <button>😍</button>
+      <button>😮</button>
+      <button>😴</button>
+      <br />
+      <button>😏</button>
+      <button>😣</button>
+      <button>😨</button>
     </div>
     <div class="image-box">
-        <input type="text" name="image-route" id="image-route" placeholder="Image Route">
-        <button>Select Image</button>
+      <input
+        type="text"
+        name="image-route"
+        id="image-route"
+        placeholder="Image Route"
+      />
+      <button>Select Image</button>
     </div>
+    <div class="post-container"></div>
     <script src="/client/scripts/new-post.js"></script>
-    </body>
-    </html>
+  </body>
+</html>
