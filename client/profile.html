@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/client/style.css" />
+    <!--FONT AWSOME-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <title>Reddit Clone | Profile</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="menu">
+        <li><a href="/client/home.html">Reddit Clone |</a></li>
+        <li><a href="#">My Profile</a></li>
+        <li>
+          <button id="dark-mode-button"><i class="fas fa-moon"></i></button>
+        </li>
+      </ul>
+    </nav>
+    <div class="profile-container">
+      <img
+        src="/client/img/profile-avatar.webp"
+        alt="avatar"
+        id="profile-avatar"
+      />
+      <h4 id="username">Username</h4>
+      <button id="edit-profile-button">Edit profile</button>
+      <div class="social-buttons">
+        <button id="message-button"><i class="fas fa-envelope"></i></button>
+        <button id="follow-button"><i class="fas fa-user-plus"></i></button>
+        <button id="report-button"><i class="fas fa-flag"></i></button>
+      </div>
+      <div class="user-info">
+        <span>Posts</span>
+        <p id="post-count">0</p>
+        <span>Comments</span>
+        <p id="comments-count">0</p>
+        <span>Awards</span>
+        <p id="awards-count">0</p>
+      </div>
+    </div>
+    <script src="/client/scripts/profile.js"></script>
+  </body>
+</html>

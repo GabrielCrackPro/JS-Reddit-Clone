@@ -223,44 +223,44 @@
   text-transform: uppercase;
   color: #fff;
 }
-.post-container{
+.post-container {
   background-color: #ccc;
   outline: 2px solid #ff4d00;
   width: 99%;
   margin-top: 10px;
 }
-.post-container h4{
+.post-container h4 {
   color: #ff4d00;
   font-weight: bold;
   text-transform: uppercase;
 }
-.post-container p{
+.post-container p {
   color: #ff4d00;
   font-weight: bold;
 }
-.post-container p small{
+.post-container p small {
   font-size: 15px;
   text-transform: uppercase;
 }
-.post-container button{
+.post-container button {
   background: none;
   border: none;
   outline: none;
 }
-.post-container button i{
+.post-container button i {
   color: #ff4d00;
 }
-.post-container button:hover i{
+.post-container button:hover i {
   color: #000;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   cursor: pointer;
 }
-.post-divisor{
+.post-divisor {
   height: 10px;
   background-color: #ff4d00;
   margin-bottom: 5px;
 }
-.comment-box{
+.comment-box {
   position: absolute;
   background: #ccc;
   outline: 2px solid #ff4d00;
@@ -268,14 +268,14 @@
   left: 100px;
   width: 350px;
 }
-.comment-box textarea{
+.comment-box textarea {
   margin-left: 5px;
   margin-top: 5px;
   width: 97%;
   outline: none;
   color: #ff4d00;
 }
-.comment-box button{
+.comment-box button {
   background: #ff4d00;
   color: #fff;
   padding: 5px;
@@ -284,4 +284,97 @@
   margin-left: 5px;
   width: 97%;
   cursor: pointer;
+}
+/*Profile*/
+.profile-container {
+  background: #ccc;
+  outline: 2px solid #ff4d00;
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 99%;
+  height: 230px;
+}
+#profile-avatar {
+  width: 100px;
+  height: 100px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.user-info {
+  position: absolute;
+  left: 20%;
+  top: 70px;
+}
+.user-info span {
+  position: absolute;
+  left: 50px;
+  color: #ff4d00;
+  font-weight: bold;
+}
+#username {
+  color: #ff4d00;
+  margin-left: 5px;
+}
+#post-count,
+#comments-count,
+#awards-count {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: #ff4d00;
+}
+#edit-profile-button {
+  border: none;
+  outline: none;
+  background: #ff4d00;
+  color: #fff;
+  padding: 5px;
+  margin-left: 5px;
+}
+#edit-profile-button:hover {
+  background: #000;
+  color: #ff4d00;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.social-buttons {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.social-buttons button {
+  border: none;
+  outline: none;
+  background: #ff4d00;
+  padding: 5px;
+}
+.social-buttons button i {
+  color: #fff;
+}
+.social-buttons button:hover {
+  background: #000;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.social-buttons button:hover i {
+  color: #ff4d00;
+  transition: all 0.3s ease;
+}
+.message-box {
+  outline: 2px solid #ff4d00;
+  background: #ccc;
+  position: absolute;
+}
+.message-box textarea {
+  margin: 5px;
+  outline: none;
+  color: #ff4d00;
+}
+.message-box button {
+  padding: 5px;
+  border: none;
+  outline: none;
+  background: #ff4d00;
+  color: #fff;
+  margin: 5px;
+  width: 95%;
 }
