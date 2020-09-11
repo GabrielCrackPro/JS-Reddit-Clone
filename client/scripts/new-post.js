@@ -88,6 +88,12 @@ postForm.addEventListener('submit', (event) => {
                 commentDate,
                 commentUser
             }
+            const comments = []
+            comments.push(newComment.commentText)
+            for(var i = 0; i < comments.length; i++){
+                postContainer.innerHTML += `
+                <h4>${comments[i]}</h4>`
+            }
             if(commentText == ''){
                 console.error('Please type something')
             }else{
@@ -112,19 +118,21 @@ postForm.addEventListener('submit', (event) => {
 const emojiBtn = document.querySelector('#emoji-button')
 const emojiBox = document.querySelector('.emoji-box')
 const emojis = document.querySelectorAll('.emoji-box button')
+const emojiList = []
 emojiBtn.addEventListener('click', () => {
     emojiBox.classList.toggle('show')
 })
-const emojiList = []
-for(var i = 0; i< emojis.length; i++){
-    emojiList.push(emojis[i].textContent)
-}
-
+emojis.forEach(emoji =>{
+    emoji.addEventListener('click', ()=>{
+       emojiList.push(emoji.textContent)
+       console.log(emojiList)
+    })
+})
 //Images
 const imgBtn = document.querySelector('#image-button')
 const imgBox = document.querySelector('.image-box')
 
 imgBtn.addEventListener('click', ()=>{
-    imgBox.classList.toggle('show-img')
+    imgBox.classList.toggle('show')
     console.log(imgBox)
 })

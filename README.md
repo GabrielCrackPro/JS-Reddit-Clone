@@ -20,6 +20,7 @@ This is a reddit clone
 - [x] Create interaction buttons
 - [x] Create freatured posts section
 - [x] Create post / comment section
+- [x] Add comments to its post
 - [x] Implement Dark mode
 
 ### BACK-END
