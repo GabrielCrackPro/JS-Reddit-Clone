@@ -5,15 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/client/style.css" />
     <!--FONT AWSOME-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <!--FAVICON-->
+    <link
+      rel="shortcut icon"
+      href="/client/img/favicon.png"
+      type="image/x-icon"
+    />
     <title>Reddit Clone | Login</title>
   </head>
   <body>
     <nav>
       <ul class="menu">
-        <li><a href="/client/home.html">Reddit Clone |</a></li>
+        <li>
+          <a href="/client/home.html"><i class="fab fa-reddit-alien"></i></a>
+        </li>
         <li><a href="/client/login.html">Join / Login</a></li>
-        <li><button id="dark-mode-button"><i class="fas fa-moon"></i></button></li>
+        <li>
+          <button id="dark-mode-button"><i class="fas fa-moon"></i></button>
+        </li>
       </ul>
     </nav>
     <form id="register-form">
@@ -43,22 +58,41 @@
     </form>
     <form id="login-form">
       <h4>Login</h4>
-      <input type="email" name="login-email" id="login-email" placeholder="Email">
-      <br>
-      <input type="password" name="login-password" id="login-password" placeholder="Password">
-      <br>
+      <input
+        type="email"
+        name="login-email"
+        id="login-email"
+        placeholder="Email"
+      />
+      <br />
+      <input
+        type="password"
+        name="login-password"
+        id="login-password"
+        placeholder="Password"
+      />
+      <br />
       <button type="submit">Log In</button>
     </form>
     <div class="divisor"></div>
     <div class="trending">
       <div class="trending-1">
         <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi doloremque iusto numquam culpa velit consequuntur temporibus animi minima maiores beatae magnam nobis aperiam ratione, dolor quia, vitae nisi excepturi repudiandae.</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+          doloremque iusto numquam culpa velit consequuntur temporibus animi
+          minima maiores beatae magnam nobis aperiam ratione, dolor quia, vitae
+          nisi excepturi repudiandae.
+        </p>
         <div class="post-buttons">
           <button id="upvote-button"><i class="fas fa-chevron-up"></i></button>
-          <button id="downvote-button"><i class="fas fa-chevron-down"></i></button>
+          <button id="downvote-button">
+            <i class="fas fa-chevron-down"></i>
+          </button>
           <button id="award-button"><i class="fas fa-crown"></i></button>
-          <button id="comment-button"><i class="fas fa-comment-dots"></i></button>
+          <button id="comment-button">
+            <i class="fas fa-comment-dots"></i>
+          </button>
           <p id="post-date">Date</p>
           <p id="upvote-count">0</p>
           <p id="downvote-count">0</p>
