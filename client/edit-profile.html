@@ -17,7 +17,7 @@
       href="/client/img/favicon.png"
       type="image/x-icon"
     />
-    <title>Reddit Clone | Profile</title>
+    <title>Reddit Clone | Edit Profile</title>
   </head>
   <body>
     <nav>
@@ -31,28 +31,21 @@
         </li>
       </ul>
     </nav>
-    <div class="profile-container">
-      <img
-        src="/client/img/profile-avatar.webp"
-        alt="avatar"
-        id="profile-avatar"
-      />
-      <h4 id="username">Username</h4>
-      <button id="edit-profile-button">Edit profile</button>
-      <div class="social-buttons">
-        <button id="message-button"><i class="fas fa-envelope"></i></button>
-        <button id="follow-button"><i class="fas fa-user-plus"></i></button>
-        <button id="report-button"><i class="fas fa-flag"></i></button>
-      </div>
-      <div class="user-info">
-        <span>Posts</span>
-        <p id="post-count">0</p>
-        <span>Comments</span>
-        <p id="comments-count">0</p>
-        <span>Awards</span>
-        <p id="awards-count">0</p>
-      </div>
-    </div>
+    <form class="profile-data-form">
+      <label for="saved-username">Username:</label
+      ><input type="text" name="saved-username" id="saved-username" />
+      <br />
+      <label for="saved-password">Password:</label
+      ><input type="password" id="saved-password" name="saved-password" />
+      <br />
+      <label for="saved-email">Email:</label
+      ><input type="email" name="saved-email" id="saved-email" />
+      <br />
+      <label for="saved-image">Image: </label
+      ><input type="file" name="saved-image" id="saved-image" />
+      <br />
+      <button type="submit">Save Changes</button>
+    </form>
     <script src="/client/scripts/profile.js"></script>
     <script src="/client/scripts/edit-profile.js"></script>
   </body>

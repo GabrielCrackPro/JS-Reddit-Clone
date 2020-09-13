@@ -27,6 +27,7 @@ This is a reddit clone
 - [x] Add comments to its post
 - [x] Implement Dark mode
 - [x] Add profile page
+- [x] Edit profile page added
 
 ### BACK-END
 
@@ -41,3 +42,4 @@ This is a reddit clone
 - Change dark mode button when is on
 - Fix insert emojis
 - Fix message box
+- Finish editing profile page

@@ -378,3 +378,29 @@
   margin: 5px;
   width: 95%;
 }
+/*Edit profile*/
+.profile-data-form {
+  background: #ccc;
+  outline: 2px solid #ff4d00;
+  margin-top: 5px;
+}
+.profile-data-form label {
+  color: #ff4d00;
+  font-weight: bold;
+}
+.profile-data-form input {
+  width: 99%;
+  margin-left: 5px;
+  padding: 3px;
+  outline: none;
+  color: #ff4d00;
+}
+.profile-data-form button {
+  margin-left: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  background: #ff4d00;
+  color: #fff;
+  border: none;
+  outline: none;
+}

@@ -62,6 +62,7 @@ window.onload = getUsername()
 const messageBtn = document.querySelector('#message-button')
 const followBtn = document.querySelector('#follow-button')
 const reportBtn = document.querySelector('#report-button')
+const editBtn = document.querySelector('#edit-profile-button')
 
 messageBtn.addEventListener('click', () => {
     const messageBox = document.createElement('div')
